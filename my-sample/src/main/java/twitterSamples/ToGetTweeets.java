@@ -11,14 +11,14 @@ public class ToGetTweeets {
 	public static void main(String[] str) {
 
 		ConfigurationBuilder cb = new ConfigurationBuilder();
-
-		cb.setOAuthConsumerKey("jREUiik4pE9bKcBUYr5xsV7jt");
-
-		cb.setOAuthConsumerSecret("LIUbDpJzgoJ8gz3w3OgQFGcMnMLyjPi9S3uBmtEdaLGzUBqkM9");
-
-		cb.setOAuthAccessToken("453844423-3P6XqQ8hXWY1K47gEL1LU9lRg9kcrzfEXDvVTMZM");
-
-		cb.setOAuthAccessTokenSecret("vrDBfnE1ya425mYIjM80OH8HmyYOQ3RUotk3t8gdFy6Yy");
+//1
+		cb.setOAuthConsumerKey("your oauth consumer key");
+//2
+		cb.setOAuthConsumerSecret("your oauth consumer secret key");
+//3
+		cb.setOAuthAccessToken("your oauth access token");
+//4
+		cb.setOAuthAccessTokenSecret("your oauth access secret token");
 
 		Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 
